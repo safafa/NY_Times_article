@@ -1,2 +1,2 @@
 # NY_Times_article
-new york times article clone
+This is a new york times article clone created using only HTML an CSS 

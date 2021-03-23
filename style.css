@@ -7,12 +7,22 @@ body > header {
 .nyt-chelt {
   font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
 }
+
 .ariel {
   font-family: Arial, sans-serif;
 }
 
+.hlv {
+  font-family: helvetica, arial, sans-serif;
+}
+
 .bold {
   font-weight: bold;
+}
+
+.caption{
+  font-style: oblique;
+  font-weight: 100;
 }
 
 /* video */
@@ -23,7 +33,6 @@ body > header {
 }
 
 /* main elements */
-
 .container {
   display: flex;
   flex-flow: column wrap;
@@ -31,11 +40,19 @@ body > header {
   max-width: 100%;
 }
 
-#first_image > img {
-  max-width: 100%;
+#title {
+padding: 20px;
+border-bottom-style: solid;
+border-width: thin;
 }
 
-p {
+.socials{
+  display: flex;
+  justify-content: left;
+  align-content: flex-start;
+}
+
+ p {
   max-width: 600px;
 }
 
@@ -63,9 +80,8 @@ p {
 }
 
 /* navbar */
-
 .navbar {
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom-style: solid;
   padding: 10px;
   display: flex;
@@ -81,8 +97,13 @@ p {
   justify-content: space-around;
 }
 
+.logo {
+  width: 196px;
+}
+
 .nav_link {
   text-decoration: none;
+  color: black;
 }
 
 a.nav_hover:hover {
@@ -91,28 +112,42 @@ a.nav_hover:hover {
 
 .nav_btn {
   background-color: #042f64;
-  color: #ffffff;
+  color: #fff;
   padding: 5px;
   margin: 1px;
   border: none;
   border-radius: 3px;
 }
+
 .btn_icon {
-  background-color: #ffffff;
+  background-color: #fff;
   border: none;
 }
 
 /* footer */
-
 .foot_header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin: 10px;
+  border-top-style: double;
+  border-top-color: #ddded9;
+  padding: 5px;
 }
+
 .nav_container {
   display: flex;
   justify-content: space-around;
 }
+
 .last {
   border-left-style: solid;
+  border-left-color: #ddded9;
+  border-width: thin;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav > ul {
+  list-style-type: none;
 }

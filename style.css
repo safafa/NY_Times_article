@@ -1,6 +1,18 @@
-/* Fonts */
+body > header {
+  margin-right: 10px;
+  margin-bottom: 100px;
+}
+
+/* Fonts & font weights */
 .nyt-chelt {
   font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+}
+.ariel {
+  font-family: Arial, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 /* video */
@@ -50,6 +62,57 @@ p {
   margin-top: 150px;
 }
 
+/* navbar */
+
 .navbar {
-  display: inline;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  flex: 1;
+}
+
+.side_item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_link {
+  text-decoration: none;
+}
+
+a.nav_hover:hover {
+  text-decoration: underline;
+}
+
+.nav_btn {
+  background-color: #042f64;
+  color: #ffffff;
+  padding: 5px;
+  margin: 1px;
+  border: none;
+  border-radius: 3px;
+}
+.btn_icon {
+  background-color: #ffffff;
+  border: none;
+}
+
+/* footer */
+
+.foot_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+}
+.last {
+  border-left-style: solid;
 }

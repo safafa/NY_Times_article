@@ -7,20 +7,24 @@
         <meta name="author" content="Safa Aballagh">  
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>New York Times Article</title>
     </head>
     <body>
             <header>
                 <nav class="navbar">
-                    <div >
-                        <a href="https://www.nytimes.com/section/science/space">Space & Cosmos</a>
-                       
-                    </div>
-                    <div><a href="https://www.nytimes.com/">The New York Times</a></div>
-                    <div> <ul >                        
-                        <li><button>Subscribe Now</button></li>
-                        <li><button>Login</button></li>
-                    </ul></div>
+                 <div class="left_item">
+                 <button class="btn_icon"><i class="fa fa-search"></i></button> 
+                 <a class="nyt-chelt nav_link nav_hover bold" href="https://www.nytimes.com/section/science/space">Space & Cosmos</a> 
+                </div>
+                 <div class="center_item"> 
+                 <a class="nyt-chelt nav_link bold" href="https://www.nytimes.com/">The New York Times</a>
+                </div> 
+                <div class="side_item"> 
+                 <button class="nav_btn ariel bold">Subscribe Now</button>
+                 <button class="nav_btn ariel bold">Login</button>
+                </div>
                 </nav>
             </header>
             <main class="container">
@@ -138,10 +142,11 @@
                         </article>
             </main>
             <footer>
-                <div>
+                <div class="foot_header">
                     <h1><a href="https://www.nytimes.com/">The New York Times</a></h1>
                     <a href="https://www.nytimes.com/">Go to home page</a>
                 </div>
+                <div class="nav_container">
                 <nav>
                     <h1>NEWS</h1>
                     <ul>
@@ -182,7 +187,15 @@
                         <li><a href="https://www.nytimes.com/">Newsletters</a></li>
                     </ul>
                 </nav>
-
+                <nav class="last">
+                    <h1>Subscribe</h1>
+                    <ul>
+                        <li><a href="https://www.nytimes.com/">Home delivery</a></li>
+                        <li><a href="https://www.nytimes.com/">Cooking</a></li>
+                        <li><a href="https://www.nytimes.com/">Digital Subscription</a></li>
+                    </ul>
+                </nav>
+            </div>
             </footer>
     </body>
 </html>

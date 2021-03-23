@@ -20,7 +20,7 @@ body > header {
   font-weight: bold;
 }
 
-.caption{
+.caption {
   font-style: oblique;
   font-weight: 100;
 }
@@ -41,9 +41,9 @@ body > header {
 }
 
 #title {
-padding: 20px;
-border-bottom-style: solid;
-border-width: thin;
+ padding: 20px;
+ border-bottom-style: solid;
+ border-width: thin;
 }
 
 .socials{
@@ -52,7 +52,7 @@ border-width: thin;
   align-content: flex-start;
 }
 
- p {
+p {
   max-width: 600px;
 }
 

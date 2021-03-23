@@ -41,12 +41,12 @@ body > header {
 }
 
 #title {
- padding: 20px;
- border-bottom-style: solid;
- border-width: thin;
+  padding: 20px;
+  border-bottom-style: solid;
+  border-width: thin;
 }
 
-.socials{
+.socials {
   display: flex;
   justify-content: left;
   align-content: flex-start;

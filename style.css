@@ -98,18 +98,16 @@ body > header {
 }
 
 /* main elements */
-main{
+main {
   width: 100%;
   box-sizing: border-box;
-
-  
 }
 
-.block{
+.block {
   display: block;
 }
 
-.title{
+.title {
   width:50%;
   margin: auto;
   margin-bottom: 10px;

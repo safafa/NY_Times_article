@@ -35,7 +35,6 @@
 
 /* video */
 .frame {
-  border: none;
   width: 600px;
   height: 319px;
 }
@@ -44,6 +43,10 @@
 
 .blue {
   background-color: rgb(50, 104, 145);
+}
+
+.white {
+  background-color: #fff;
 }
 
 .tblue {
@@ -169,15 +172,6 @@ p {
   border-color: #ddded9;
 }
 
-#sidebar {
-  float: right;
-  position: relative;
-  right: 0;
-  top: 520px;
-  width: 20%;
-  z-index: -1;
-}
-
 .grid {
   background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png");
   background-size: cover;
@@ -191,14 +185,35 @@ p {
   font-size: 14px;
 }
 
-/* navbar */
+/* navbars & links */
 .navbar {
-  background-color: #fff;
   border-bottom-style: solid;
   padding: 10px 10px 10px 10px;
   box-sizing: border-box;
   position: fixed;
   top: 0;
+  width: 100%;
+}
+
+#sidebar {
+  float: right;
+  position: relative;
+  right: 0;
+  top: 520px;
+  width: 20%;
+  z-index: -1;
+}
+
+#blinks {
+  margin-bottom: 50px;
+}
+
+.bnavbar {
+  border-top-style: solid;
+  border-top-width: thin;
+  padding: 10px 10px 10px 10px;
+  position: fixed;
+  bottom: 0;
   width: 100%;
 }
 
@@ -218,12 +233,19 @@ a.nav_hover:hover {
   color: #fff;
   padding: 5px;
   margin: 1px;
-  border: none;
   border-radius: 3px;
 }
 
-.btn_icon {
-  background-color: #fff;
+nav > ul {
+  list-style-type: none;
+}
+
+.space > li {
+  padding-bottom: 7px;
+}
+
+/* buttons */
+.nborder {
   border: none;
 }
 
@@ -232,7 +254,6 @@ a.nav_hover:hover {
   text-align: center;
   padding: 10px 100px;
   margin: 1px;
-  border: none;
   border-radius: 3px;
 }
 
@@ -250,14 +271,6 @@ a.nav_hover:hover {
   border-width: thin;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-nav > ul {
-  list-style-type: none;
-}
-
-.space > li {
-  padding-bottom: 7px;
 }
 
 #nav_container {

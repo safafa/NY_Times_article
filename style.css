@@ -108,7 +108,7 @@ main {
 }
 
 .title {
-  width:50%;
+  width: 50%;
   margin: auto;
   margin-bottom: 10px;
 }
@@ -143,14 +143,14 @@ p {
 
 .article {
   align-self: flex-end;
-  flex: 1 ;
+  flex: 1;
 }
 
 #thanks {
   text-align: center;
   position: relative;
   margin: auto;
-  left:20%;
+  left: 20%;
   width: 25%;
   z-index: -1;
 }
@@ -166,9 +166,9 @@ p {
 
 #sidebar {
   float: right;
-  position:relative;
+  position: relative;
   right: 0;
-  top:520px;
+  top: 520px;
   width: 20%;
   z-index: -1;
 }

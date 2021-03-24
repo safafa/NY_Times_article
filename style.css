@@ -250,3 +250,7 @@ a.nav_hover:hover {
 nav > ul {
   list-style-type: none;
 }
+
+.space > li {
+  padding-bottom: 7px;
+}

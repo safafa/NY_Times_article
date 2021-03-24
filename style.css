@@ -27,6 +27,7 @@
   font-style: oblique;
   font-weight: 100;
 }
+
 /* video */
 .frame {
   border: none;
@@ -37,11 +38,11 @@
 /* colors */
 
 .blue {
-  background-color:rgb(50, 104, 145);
+  background-color: rgb(50, 104, 145);
 }
 
 .tblue {
-  color:rgb(50, 104, 145);
+  color: rgb(50, 104, 145);
 }
 
 .tblack {
@@ -75,15 +76,15 @@
   justify-content: left;
 }
 
-acenter {
+.acenter {
   align-items: center;
 }
 
-abaseline {
+.abaseline {
   align-items: baseline;
 }
 
-aflexstart {
+.aflexstart {
   align-items: flex-start;
 }
 
@@ -92,7 +93,7 @@ body > header {
 }
 
 /* float & clear */
-cboth {
+.cboth {
   clear: both;
 }
 

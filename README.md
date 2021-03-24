@@ -6,4 +6,4 @@ HTML & CSS
 
 # Live Demo
 https://safafa.github.io/NY_Times_article/
-Live Demo Link
+

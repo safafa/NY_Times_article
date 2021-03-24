@@ -28,6 +28,11 @@
   font-weight: 100;
 }
 
+.smlink {
+  font-size: 11px;
+  color: rgb(102, 102, 102);
+}
+
 /* video */
 .frame {
   border: none;
@@ -253,4 +258,10 @@ nav > ul {
 
 .space > li {
   padding-bottom: 7px;
+}
+
+#nav_container {
+  border-bottom-style: solid;
+  border-bottom-width: thin ;
+  border-color: #ddded9 ;
 }

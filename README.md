@@ -1,5 +1,4 @@
 # NY_Times_article
- article
 
 Positioning and floating elements project.
 
@@ -14,9 +13,9 @@ https://safafa.github.io/NY_Times_article/
 Positioning and floating elements project.
 
 # Built With
+
 HTML & CSS
 
 # Live Demo
-https://safafa.github.io/NY_Times_article/
 
- master
+https://safafa.github.io/NY_Times_article/

@@ -135,15 +135,6 @@ main {
   margin-bottom: 10px;
 }
 
-#titleimg {
-  width: 70%;
-  margin: auto;
-}
-
-#titleimg > img {
-  width: 100%;
-}
-
 .container {
   width: 75%;
 }
@@ -201,11 +192,10 @@ p {
 }
 
 #main_bottom {
-  padding: 10 10 10 10;
   background-color: rgb(247, 247, 247);
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(247, 247, 247) ;
+  border-color: rgb(247, 247, 247);
   margin-bottom: 10px;
 }
 
@@ -231,12 +221,13 @@ p {
 
 .newl {
   background-image: url(./img/bbk.png), url(./img/sbbk.png);
-  background-repeat: no-repeat,no-repeat;
-  background-position: 10% 5%,5% 99%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 10% 5%, 5% 99%;
   border-style: solid;
   border-width: thin;
   width: 30%;
   height: 300px;
+  font-size: 20px;
 }
 
 .bdiv > img {
@@ -367,7 +358,6 @@ nav > ul {
   left: 1%;
   width: 55%;
   z-index: -1;
-
 }
 
 .bcenter > header > div {
@@ -379,5 +369,14 @@ nav > ul {
 }
 
 .bcenter > header {
+  width: 100%;
+}
+
+#titleimg {
+  width: 70%;
+  margin: auto;
+}
+
+#titleimg > img {
   width: 100%;
 }

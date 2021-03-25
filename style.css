@@ -380,3 +380,76 @@ nav > ul {
 #titleimg > img {
   width: 100%;
 }
+
+/* form */
+form{
+  margin: 0 auto;
+  width: 500px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+.form{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+.label {
+  display: inline;
+  text-align: right;
+}
+
+.textinput,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+.choice {
+  font: 1em sans-serif;
+  width: 10px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.submit {
+  padding-left: 90px; /* same size as the label elements */
+}
+
+.submit > button {
+  margin-left: .5em;
+  width: 300px;
+  height: 25px;
+}
+
+.form > li > span {
+  display: inline-block;
+  margin: auto;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+#dform {
+  display: none;
+}

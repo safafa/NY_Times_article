@@ -180,10 +180,56 @@
                             <article class="cflex jcenter article">
                                 <p class= "caption">A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun.<br>Order Reprints | Today’s Paper | Subscribe</p>
                                 <div class="flex jbetween">
-                                <button id="comments" class="blue nborder bold">Read Comments</button>
-                                <div class="flex jleft  socials"><button class="nborder white "><i class="fa fa-facebook"></i></button><button class="nborder white "><i class="fa fa-instagram"></i></button> <button class="nborder white nboder"><i class="fa fa-twitter"></i></button><button class="nborder white  "><i class="fa fa-letter"></i></button> </div>
+                                <button id="comments" class="collapsible blue nborder bold">Send Comments</button>
+                                <div class="flex jleft  socials"><button class=" nborder white "><i class="fa fa-facebook"></i></button><button class="nborder white "><i class="fa fa-instagram"></i></button> <button class="nborder white nboder"><i class="fa fa-twitter"></i></button><button class="nborder white  "><i class="fa fa-letter"></i></button> </div>
                                 </div>
-                              </article>
+                                <script>
+                                    var coll = document.getElementsByClassName("collapsible");
+                                    var i;
+                                    for (i = 0; i < coll.length; i++) {
+                                      coll[i].addEventListener("click", function() {
+                                        this.classList.toggle("active");
+                                        var content = document.getElementById("dform");
+                                        if (content.style.display === "block") {
+                                          content.style.display = "none";
+                                        } else {
+                                          content.style.display = "block";
+                                        }
+                                      });
+                                    }
+                                    </script>
+                                <div id="dform" >
+                                    <form action="#" method="POST">
+                                        <ul class="form">
+                                            <li>
+                                                <label for="name">Name:</label>
+                                                <input class="textinput" type="text" id="name" name="name" maxlength="20" required>
+                                            </li>
+                                            <li>
+                                                <label for="email">Email:</label>
+                                                <input class="textinput" type="text" id="email" name="email" maxlength="20" required>
+                                            </li>
+                                            <li>
+                                                <label for="comment">Comment:</label>
+                                                <textarea class="textinput" id="comment" name="comment" placeholder="Type your comment here…" maxlength="250" required></textarea>
+                                            </li>
+                                            <li>
+                                                <label class="label" for="opinion">What is your overall opinion about this article?</label>
+                                                <span ><input type="radio" name="opinion" value="positive" checked> Positive
+                                                <input  type="radio" name="opinion" value="negative"> Negative
+                                                <input  type="radio" name="opinion" value="neutral"> Neutral
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span><input type="checkbox" name="subscribe" value="true" checked> I want to subscribe to the newsletter</span>
+                                            </li>
+                                            <li class="submit">
+                                                <button class="collapsible blue nborder bold" type="submit">Send</button>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </div>
+                            </article>
                 </section>
                 <section class="cboth">
                     <aside class="lsidebar flex jcenter">
@@ -222,13 +268,10 @@
                                 <div class="bdiv "><img src="./img/dbk.png" alt="test"><a class="nav_link nav_hover tblack bold" href="#">The Most Intimate Portrait Yet of a Black Hole<br><span class="caption">March 24</span></a></div> 
                             </div>
                             </article>
-                        
-
                     </section>
                 </section>
                 <section class="cboth">
                     <div id="main_bottom"><p></p></div>
-
                 </section>
             </main>
 

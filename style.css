@@ -382,22 +382,21 @@ nav > ul {
 }
 
 /* form */
-form{
+form {
   margin: 0 auto;
   width: 500px;
-  /* Form outline */
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 10px;
 }
-.form{
+
+.form {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 label {
-  /* Uniform size & alignment */
   display: inline-block;
   width: 100px;
   text-align: right;
@@ -424,15 +423,12 @@ textarea {
 }
 
 textarea {
-  /* Align multiline text fields with their labels */
   vertical-align: top;
-
-  /* Provide space to type some text */
   height: 5em;
 }
 
 .submit {
-  padding-left: 90px; /* same size as the label elements */
+  padding-left: 90px;
 }
 
 .submit > button {
@@ -444,10 +440,6 @@ textarea {
 .form > li > span {
   display: inline-block;
   margin: auto;
-}
-
-form li + li {
-  margin-top: 1em;
 }
 
 #dform {

@@ -386,7 +386,7 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   border-radius: 10px;
 }
 
@@ -432,7 +432,7 @@ textarea {
 }
 
 .submit > button {
-  margin-left: .5em;
+  margin-left: 20px;
   width: 300px;
   height: 25px;
 }
